@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Signika', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.212), rgba(0, 0, 0, 0.377)), url('./img/afternoon.jpg'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+#time {
+    font-size: 8rem;
+    font-weight: 300;
+}
+
+#name {
+    color: #f36;
+}
+
+@media screen and (max-width: 600px){
+    #time{
+        font-size: 4rem;
+    }
+    h1{
+        font-size: 20px;
+    }
+}
